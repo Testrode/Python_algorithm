@@ -1,11 +1,16 @@
+# coding:utf-8
+
 import random
 import string
 
-lst = ['rand_int','rand_float','rand_sign']
-choice = lst[random.randint(0,2)]
-if choice == 'rand_int':
-    print(random.randint(0,9))
-if choice == 'rand_float':
-    print(random.random())
-if choice == 'rand_sign':
-    print(''.join([random.choice(string.ascii_letters + string.digits + string.punctuation ) for n in range(1)]))
+rand_int_a = int(input('Выберите случайное число от: '))
+rand_int_b = int(input('До: '))
+print(random.randint(rand_int_a, rand_int_b))
+rand_float_a = int(input('Выберите случайное число от: '))
+rand_float_b = int(input('До: '))
+print(random.uniform(rand_float_a,rand_float_b))
+rand_symb_a = input('Выберите начало диапазона от a - z: ')
+rand_symb_b = input('Выберите диапозон ДО: ')
+rand_symb_a = ord(rand_symb_a)
+rand_symb_b = ord(rand_symb_b)
+print(chr(random.randint(rand_symb_a,rand_symb_b)))
