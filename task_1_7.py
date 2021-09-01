@@ -7,3 +7,4 @@ if side_triangle_AB == side_triangle_BC == side_triangle_AC:
     print('Этот треугольник равносторонний')
 if side_triangle_AB == side_triangle_BC != side_triangle_AC:
     print('Этот треугольник равнобедренный')
+    

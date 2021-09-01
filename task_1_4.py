@@ -14,3 +14,5 @@ rand_symb_b = input('Выберите диапозон ДО: ')
 rand_symb_a = ord(rand_symb_a)
 rand_symb_b = ord(rand_symb_b)
 print(chr(random.randint(rand_symb_a,rand_symb_b)))
+
+

@@ -8,3 +8,4 @@ distance = position_b - position_a
 print(f'Позиция в алфавите первой буквы: {position_a}\n'
       f'Позиция в алфавите второй буквы: {position_b}\n'
       f'Между ними {distance - 1} букв')
+
